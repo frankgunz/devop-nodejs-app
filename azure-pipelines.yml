@@ -30,7 +30,7 @@ stages:
   - deployment: deploymentJob
     displayName: Deployment Job
     environment:
-      name: vm demo
+      name: ubuntu
       resourceType: VirtualMachine
     strategy:
       runOnce:
